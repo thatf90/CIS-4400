@@ -12,7 +12,7 @@ The dataset is about New York City’s surveillance on its air quality and pollu
 
 Information Architecture:
 
-[Open info_arch.drawio in draw.io]([View the architecture diagram](data_arch.drawio))
+[Open diagram in diagrams.net](https://app.diagrams.net/?url=https://raw.githubusercontent.com/thatf90/CIS-4400/main/data_arch.drawio)
 
 The web based dashboard will allow users to interact with the data that was sourced from the CSV. The user can views insights from the data warehouse where everything is stored and filter out what they want to see or use. When the user does this the query engine processes this and displays the wanted information.
 
