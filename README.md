@@ -12,13 +12,13 @@ The dataset is about New York City’s surveillance on its air quality and pollu
 
 Information Architecture:
 
-(info%20arch.drawio) — open in [draw.io](https://draw.io)
+(./info%20arch.drawio) — open in [draw.io](https://draw.io)
 
 The web based dashboard will allow users to interact with the data that was sourced from the CSV. The user can views insights from the data warehouse where everything is stored and filter out what they want to see or use. When the user does this the query engine processes this and displays the wanted information.
 
 Data Architecture:
 
-(data%20arch.drawio) — open in [draw.io](https://draw.io)
+(./data%20arch.drawio) — open in [draw.io](https://draw.io)
 
 The source of the data is the CSV from the NYC open data source. The data then goes through the data pipeline where it gets extracted, transformed, and loaded. The data then gets stored in the data warehouse. After that process is done, it gets visualized and reported for the user to make business intelligence decisions. 
 
