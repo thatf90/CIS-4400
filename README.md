@@ -18,7 +18,7 @@ The web based dashboard will allow users to interact with the data that was sour
 
 Data Architecture:
 
-![Data Architecture Diagram](./data%20arch.drawio.png)
+[View Data Architecture Diagram](./data%20arch.drawio.png)
 
 
 The source of the data is the CSV from the NYC open data source. The data then goes through the data pipeline where it gets extracted, transformed, and loaded. The data then gets stored in the data warehouse. After that process is done, it gets visualized and reported for the user to make business intelligence decisions. 
