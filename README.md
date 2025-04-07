@@ -24,5 +24,5 @@ The source of the data is the CSV from the NYC open data source. The data then g
 
 
 Dimensional Modeling: 
-![Dimension modeling](https://github.com/thatf90/CIS-4400/issues/1)
+![Dimension modeling](https://github.com/thatf90/CIS-4400/issues/2)
 
