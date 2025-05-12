@@ -27,3 +27,7 @@ The source of the data is the CSV from the NYC open data source. The data then g
 Dimensional Modeling: 
 ![Dimension modeling](https://github.com/thatf90/CIS-4400/issues/2)
 
+Data Transformation:
+Using Python and the Pandas library, the dataset was cleaned and pre-processed. The Start_Date column was converted to datetime format, and new fields (Year, Month, Day) were obtained. Rows with null values in critical fields (Start_Date, Data Value) were removed, and duplicate records were dropped. Additionally, the Message column was removed due to being entirely null.
+The transformed dataset was saved as Air_Quality_Cleaned.csv
+![image](https://github.com/user-attachments/assets/e05a1002-d696-433f-93f9-027622c50607)
