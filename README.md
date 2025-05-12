@@ -30,4 +30,13 @@ Dimensional Modeling:
 Data Transformation:
 Using Python and the Pandas library, the dataset was cleaned and pre-processed. The Start_Date column was converted to datetime format, and new fields (Year, Month, Day) were obtained. Rows with null values in critical fields (Start_Date, Data Value) were removed, and duplicate records were dropped. Additionally, the Message column was removed due to being entirely null.
 The transformed dataset was saved as Air_Quality_Cleaned.csv
-![image](https://github.com/user-attachments/assets/e05a1002-d696-433f-93f9-027622c50607)
+
+Data Dictionary Updates (Post-Transformation):
+The original data dictionary from the NYC Open Data portal was retained. The following supplemental updates were made to reflect transformation changes:
+
+Column Name	Data Type	Description
+Year	Integer	Year extracted from Start_Date
+Month	Integer	Month extracted from Start_Date
+Day	Integer	Day extracted from Start_Date
+
+
