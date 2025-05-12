@@ -39,7 +39,6 @@ Year	Integer	Year extracted from Start_Date
 Month	Integer	Month extracted from Start_Date
 Day	Integer	Day extracted from Start_Date
 
-This data warehouse design follows the dimensional model from Homework 1. It uses one central fact table, FactAirQualityReadings, and three dimension tables: DimDateTime, DimLocation, and DimPollutant. The schema is modeled as a star schema to support flexible analysis by time, location, and pollutant type.
+Data Warehouse Modeling: This data warehouse design follows the dimensional model from Homework 1. It uses one central fact table, FactAirQualityReadings, and three dimension tables: DimDateTime, DimLocation, and DimPollutant. The schema is modeled as a star schema to support flexible analysis by time, location, and pollutant type.
 Although a Redshift instance was not deployed, the SQL scripts provided in data_warehouse_schema.sql follow Redshift syntax and are ready to be executed using Redshift’s Query Editor v2. The fact table links to each dimension using foreign keys. If deployed, data would be inserted using Redshift’s COPY command or through a Python connector like psycopg2.
-
 
