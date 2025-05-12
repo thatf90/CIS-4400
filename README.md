@@ -27,6 +27,8 @@ The source of the data is the CSV from the NYC open data source. The data then g
 Dimensional Modeling: 
 ![Dimension modeling](https://github.com/thatf90/CIS-4400/issues/2)
 
+Data Storage: The raw dataset (Air_Quality.csv) was uploaded to Azure Blob Storage directly in a container named airqualitycontainer. This storage approach was chosen to simulate real-world cloud-based environments and ensure organized, secure storage of the source file. The file was structured in an orderly manner and made available for processing in the transformation stage.
+
 Data Transformation:
 Using Python and the Pandas library, the dataset was cleaned and pre-processed. The Start_Date column was converted to datetime format, and new fields (Year, Month, Day) were obtained. Rows with null values in critical fields (Start_Date, Data Value) were removed, and duplicate records were dropped. Additionally, the Message column was removed due to being entirely null.
 The transformed dataset was saved as Air_Quality_Cleaned.csv
