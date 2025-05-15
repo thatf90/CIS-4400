@@ -46,10 +46,15 @@ Data Warehouse Modeling: This data warehouse design follows the dimensional mode
 Visualizations were created using Tableau Public, based on the transformed Air_Quality_Cleaned.csv dataset. The following visuals were developed to explore key insights:
 
 Pie Chart – Pollution breakdown by borough
+
 Column Chart – Total pollution by year
+
 Line Chart – Pollution trends over time
+
 Highlight Table (substitute for Heat Map) – Pollution levels across boroughs and months
+
 Filter Tool – Users can filter by year to adjust all charts dynamically
+
 These visuals were combined into a single interactive dashboard for presentation.
 
 Conclusion: When analyzing NYC’s air quality data, one thing became clear: pollution and its effects aren’t equally shared. The neighborhood of Hunts Point - Mott Haven showed the highest average pollution levels, likely due to industrial activity and dense traffic. Even more striking, the highest health-related measurement was asthma emergency visits linked to ozone exposure, averaging over 71 cases. This shows how pollution isn’t just an environmental stat — it translates into real health consequences, especially in vulnerable communities.
