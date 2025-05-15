@@ -47,7 +47,7 @@ Visualizations were created using Tableau Public, based on the transformed Air_Q
 
 ![Dashboard image 1 out of 2](https://github.com/thatf90/CIS-4400/issues/3)
 
-https://github.com/thatf90/CIS-4400/issues/4
+![Dashboard image 2 out of 2](https://github.com/thatf90/CIS-4400/issues/4)
 
 Pie Chart – Pollution breakdown by borough
 
