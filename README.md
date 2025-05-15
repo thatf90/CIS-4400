@@ -45,6 +45,8 @@ Data Warehouse Modeling: This data warehouse design follows the dimensional mode
 
 Visualizations were created using Tableau Public, based on the transformed Air_Quality_Cleaned.csv dataset. The following visuals were developed to explore key insights:
 
+https://github.com/thatf90/CIS-4400/issues/3
+
 Pie Chart – Pollution breakdown by borough
 
 Column Chart – Total pollution by year
