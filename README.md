@@ -55,7 +55,9 @@ Highlight Table (substitute for Heat Map) – Pollution levels across boroughs a
 
 Filter Tool – Users can filter by year to adjust all charts dynamically
 
-These visuals were combined into a single interactive dashboard for presentation:
+These visuals were combined into a single interactive dashboard for presentation that are accesible through either of the links provided below:
+
+https://public.tableau.com/views/Air_Quality_Cleaned_Viz/Dashboard1?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link
 
 ![Dashboard image 1 out of 2](https://github.com/thatf90/CIS-4400/issues/3)
 
